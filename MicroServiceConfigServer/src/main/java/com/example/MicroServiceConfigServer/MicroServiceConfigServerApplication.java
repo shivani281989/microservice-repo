@@ -9,6 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class MicroServiceConfigServerApplication {
 
 	public static void main(String[] args) {
+		System.out.println("First commit for new branch MIC-1");
 		SpringApplication.run(MicroServiceConfigServerApplication.class, args);
 	}
 }
