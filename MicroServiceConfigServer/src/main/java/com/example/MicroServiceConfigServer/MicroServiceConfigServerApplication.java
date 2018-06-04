@@ -8,8 +8,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 public class MicroServiceConfigServerApplication {
 
-	public static void main(String[] args) {
-		System.out.println("third commit for new branch MIC-2");
+	public static void main(String[] args) {		
 		SpringApplication.run(MicroServiceConfigServerApplication.class, args);
+		System.out.println("first commit for new branch MIC-4");
 	}
 }
