@@ -10,6 +10,6 @@ public class MicroServiceConfigServerApplication {
 
 	public static void main(String[] args) {		
 		SpringApplication.run(MicroServiceConfigServerApplication.class, args);
-		System.out.println("second commit for new branch MIC-4");
+		System.out.println("third commit for new branch MIC-4");
 	}
 }
